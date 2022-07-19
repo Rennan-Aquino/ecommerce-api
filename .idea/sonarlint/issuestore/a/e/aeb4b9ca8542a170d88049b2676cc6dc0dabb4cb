@@ -1,0 +1,5 @@
+
+E
+java:S2201C"/The return value of "orElseThrow" must be used.(…¬Ùœ
+d
+java:S1612C"NReplace this lambda with method reference 'PedidoNaoEncontradoException::new'.(…¬Ùœ

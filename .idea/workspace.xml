@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdf0d360-54f4-4d98-81be-4232640fca6c" name="Changes" comment="api de ecommerce com autenticação">
+      <change afterPath="$PROJECT_DIR$/venda/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/VendaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/ApllicationControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/PedidoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/AtualizacaoStatusPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/CredenciaisDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/InformacaoItemPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/InformacoesPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/ItemPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/PedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/enums/StatusPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/service/ApiErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/service/PedidoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/service/impl/PedidoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/service/impl/UsuarioServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/config/InternacionalizacaoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/ItemsPedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/PedidosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/ProdutosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/exception/PedidoNaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/exception/RegraNegocioException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/exception/SenhaInvalidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/validator/NotEmptyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/validator/constraint/NotEmptyListValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/main/resources/meu_shema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venda/src/test/java/io/training/spring/venda/VendaApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CB1WiBZ7QX3pdBSlsc4gQgqqz1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/rennanaquino/Desktop/ecommerce-api"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="VendaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="venda" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.training.spring.venda.VendaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdf0d360-54f4-4d98-81be-4232640fca6c" name="Changes" comment="" />
+      <created>1658261197403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658261197403</updated>
+      <workItem from="1658261199491" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="api de ecommerce com autenticação" />
+    <option name="LAST_COMMIT_MESSAGE" value="api de ecommerce com autenticação" />
+  </component>
+</project>

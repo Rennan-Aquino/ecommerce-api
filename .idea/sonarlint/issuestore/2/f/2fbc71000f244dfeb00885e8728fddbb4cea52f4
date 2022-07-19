@@ -1,0 +1,6 @@
+
+N
+java:S2130"8Use "Long.parseLong" for this string-to-long conversion.(†–öá
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(Åž¨Å
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(±ç¢–
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(ó±ÑÓ
