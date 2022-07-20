@@ -5,69 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdf0d360-54f4-4d98-81be-4232640fca6c" name="Changes" comment="api de ecommerce com autenticação">
-      <change afterPath="$PROJECT_DIR$/venda/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/VendaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/ApllicationControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/ClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/PedidoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/ProdutoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/controller/UsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/AtualizacaoStatusPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/CredenciaisDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/InformacaoItemPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/InformacoesPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/ItemPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/PedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/dto/TokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/enums/StatusPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/service/ApiErrors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/service/PedidoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/service/impl/PedidoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/api/service/impl/UsuarioServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/config/InternacionalizacaoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/ItemPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/ClienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/ItemsPedidoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/PedidosRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/ProdutosRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/exception/PedidoNaoEncontradoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/exception/RegraNegocioException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/exception/SenhaInvalidaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/security/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/security/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/validator/NotEmptyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/validator/constraint/NotEmptyListValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/main/resources/meu_shema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venda/src/test/java/io/training/spring/venda/VendaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17d3dd2a099fc19426cce5349d249743d0da4a7e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3ad6534a5f76902e5f57c6d52b4f7541e6c8a7b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bb99f2dacb2bbb3c284e88dc57c30123b91a8f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/466435c747c986c8cb92bafd61b4721c118612a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/554541b83ddf2dbf631af796569dcf88eb95340b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65c03c2b33c0638aa1399d650cbf9704430bccdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66a13462fb30dc6b2f26005224ca371d7b7d2297" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b5973cbe49518f095e4d161b7e41c7e2b5786dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f181ff183ab95fdca3cf8846b321bad65a0f9baf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f19ed1989db64dc84649bab00d6dca08548960f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/venda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/venda/src/main/java/io/training/spring/venda/domain/entity/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/venda/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/src/main/resources/meu_shema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/venda/src/main/resources/meu_shema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venda/src/test/java/io/training/spring/venda/VendaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/venda/src/test/java/io/training/spring/venda/VendaApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -83,19 +87,33 @@
     </option>
   </component>
   <component name="ProjectId" id="2CB1WiBZ7QX3pdBSlsc4gQgqqz1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/rennanaquino/Desktop/ecommerce-api"
+    "last_opened_file_path": "/Users/rennanaquino/Desktop/ecommerce-api/venda/src/main/resources",
+    "spring.configuration.checksum": "bdd0236b411808e8758fdc3c6a100aeb"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venda/src/main/resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="VendaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="venda" />
@@ -114,6 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658261197403</updated>
       <workItem from="1658261199491" duration="108000" />
+      <workItem from="1658286467089" duration="4569000" />
     </task>
     <servers />
   </component>
@@ -134,5 +153,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="api de ecommerce com autenticação" />
     <option name="LAST_COMMIT_MESSAGE" value="api de ecommerce com autenticação" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
